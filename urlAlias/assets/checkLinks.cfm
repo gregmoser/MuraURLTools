@@ -1,0 +1,1 @@
+<cfhttp url="#url.link#" resolveurl="false" throwonerror="false" username="ten24" password="cqx16TY3" />

@@ -1,0 +1,5 @@
+table.adminTable { width: 100%;}
+
+td.formLabel {text-align:right; width:25%; font-weight:bold;}
+td.formField {text-align:left; width:75%;}
+td.formHeader {text-align:left; background-color:#bbbbff; font-weight:bolder; font-size:large; color:white;}

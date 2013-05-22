@@ -1,0 +1,18 @@
+<plugin>
+<name>URL Alias</name>
+<package>urlAlias</package>
+<directoryFormat>packageOnly</directoryFormat>
+<loadPriority>5</loadPriority>
+<version>1.0</version>
+<provider>ten24, LLC</provider>
+<providerURL>http://www.ten24web.com</providerURL>
+<category>Utility</category>
+<settings/>
+<eventHandlers>
+	<eventHandler event="onApplicationLoad" component="fw1Adapter" persist="false"/>
+</eventHandlers>
+<displayobjects location="global">
+</displayobjects>
+
+</plugin>
+ 

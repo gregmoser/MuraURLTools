@@ -166,7 +166,7 @@
 		<cfset var rs = "" />
 
 		<cfif application.configBean.getDBType() eq "mysql">
-			<cfquery name="rs" datasource="#application.configBean.getDatasource()#" >
+			<cfquery name="rs" datasource="#application.configBean.getDatasource()#" username="#application.configBean.GETDBUSERNAME()#" password="#application.configBean.GETDBPassword()#">
 				SELECT
 					tcontent.contentID,
 					tcontent.filename,
@@ -226,7 +226,7 @@
 					tclassextenddata.siteID = <cfqueryparam cfsqltype="cf_sql_varchar" value="#arguments.siteID#">
 			</cfquery>
 		<cfelse>
-			<cfquery name="rs" datasource="#application.configBean.getDatasource()#" >
+			<cfquery name="rs" datasource="#application.configBean.getDatasource()#" username="#application.configBean.GETDBUSERNAME()#" password="#application.configBean.GETDBPassword()#" >
 				SELECT
 					tcontent.contentID,
 					tcontent.filename,
